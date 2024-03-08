@@ -1,0 +1,45 @@
+.sectionsix{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.leftone{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.button1{
+    display: flex;
+    gap: 50px;
+    padding: 10px 1%;
+}
+.button1 p{
+    color: orange;
+    padding-top: 5px;
+}
+
+.button1 button{
+    background-color: orange;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    padding: 7px 1%;
+    border-radius: 10px;
+}
+.burgerlorem{
+    line-height: 25px;
+    color: gray;
+    padding-top: 30px;
+}
+.burger h3:hover{
+    color: rgba(255, 166, 0, 0.819);
+    transition: all ease 0.5s;
+}
+
+
+.secsiximg p{
+   font-size: 12px;
+   font-weight: bold;
+}

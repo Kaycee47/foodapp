@@ -1,0 +1,42 @@
+.Sectionfive{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 7%;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.Sectionfiveright h2{
+    font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+} 
+
+.Sectionfiverightdiv p{
+    font-size: 15px;
+    padding: 20px 0;
+} 
+
+#lorem{
+    color: gray;
+}
+#customer{
+    color: orange;
+}
+
+.react-multiple-carousel__arrow{
+    bottom: 0 !important;
+    max-width: 10px!important;
+    max-height: 10px!important;
+   
+}
+.react-multiple-carousel__arrow::before{
+    font-size: 15px!important;
+    z-index: -3;
+   
+}
+.react-multiple-carousel__arrow--right{
+    right: 0!important;
+   
+}

@@ -1,0 +1,108 @@
+.SectionThree{
+    padding: 50px 5%;
+}
+
+.SectionThree h2{
+    text-align: center;
+}
+
+.SectionThreeBtns{
+     display: flex;
+     gap: 20px;
+     margin: auto;
+     justify-content: center;
+     padding-top: 20px;
+     width: 105%;
+}
+
+.SectionThreeBtns button{
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.SectionThreeBtns button:hover{
+    background-color: orange;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.SectionThreecard{
+    display: grid;
+    padding-top: 10px;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+
+}
+
+#all{
+    background-color: orange;
+    color: white;
+    transition: all ease 0.5s;
+}
+#allone{
+     background-color: white;
+    color: black;
+  
+    transition: all ease 0.5s;
+}
+
+.SectionThreecarddiv{
+    background-color: white;
+    padding:  60px 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.SectionThreecarddiv div{
+    padding: 20px 0;
+}
+.SectionThreecarddiv h3{
+    padding:  15px 0;
+}
+
+
+.imagehover:hover{
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+}
+
+.topicons{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    gap: 10px;
+  
+}
+.topicons p{
+    font-size: 15px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.5s;
+ 
+    
+}
+
+.topicons p:hover{
+    color: white;
+    background-color: green;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.SectionThreecarddiv:hover .topicons{
+    display: flex;
+    transform: scale(1.1);
+    transition: 0.5s;
+}

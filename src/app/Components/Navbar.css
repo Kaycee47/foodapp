@@ -1,0 +1,244 @@
+/* ===========navbar=============== */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gendiv{
+    display: flex;
+    padding: 20px 5%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: rgb(252, 247, 237);
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.secondiv{
+    display: flex;
+    margin: auto;
+    gap: 30px;
+    font-size: 13px;
+    align-items: center;
+}
+
+.thirddiv{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.thirddiv p{
+    font-size: 17px;
+    background-color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: gray;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cartnumber{
+    position: relative;
+}
+
+.cartnumber span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: orange;
+    color: white;
+    height: 10px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* ==========sidebar========= */
+
+.sidebarModal{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 100;
+    transition: all ease 0.5s;
+}
+
+.sidebar{
+    background-color: white;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    z-index: 3;
+    padding: 40px;
+    transition: all ease 0.5s;
+}
+
+.closesidebar{
+    display: flex;
+    gap: 20px;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.allcarts{
+    padding-top: 10px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.cartimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.cartimg2{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: center;
+    gap: 15px;
+}
+.cartimg3{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: center;
+    gap: 15px;
+}
+.cartimg4{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#img1{
+    
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(248,247,243);
+}
+#img2{
+    
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(248,247,243);
+}
+#img3{
+    
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(248,247,243);
+}
+#img4{
+    
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(248,247,243);
+}
+
+#p1{
+    color: orange;
+    padding-top: 4px;
+    font-size: small;
+    font-weight:bold;
+}
+#p2{
+    color: orange;
+    padding-top: 4px;
+    font-size: small;
+    font-weight:bold;
+}
+#p3{
+    color: orange;
+    padding-top: 4px;
+    font-size: small;
+    font-weight:bold;
+}
+#p4{
+    color: orange;
+    padding-top: 4px;
+    font-size: small;
+    font-weight:bold;
+    
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+#btn1{
+    padding: 10px;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+#btn1:hover{
+    padding: 10px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+#btn2{
+    padding: 10px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+#btn2:hover{
+    padding: 10px;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .secondiv{
+        display: none;
+    }
+    
+}
+

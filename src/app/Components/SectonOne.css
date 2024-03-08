@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sectionOne{
+    padding: 120px 5%;
+    
+}
+
+.sectionOneback{
+    background-color: black;
+    padding: 50px 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.sectionOneback h2{
+    
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-size: 60px;
+}
+
+.sectionOneback p{
+    font-size: 17px;
+    width: 80%;
+    padding: 20px 0;
+}
+
+.inputdiv{
+    display: flex;
+}
+
+.inputdiv input{
+    padding: 15px;
+    width: 50%;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(50, 49, 49,);
+}
+
+.inputdiv button{
+    padding: 15px 40px;
+    border: none;
+    background-color: orange;
+    font-size: 15px;
+}
+
+.icondiv{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.icondiv span{
+    font-size: 25px;
+}
+.icondiv span:hover{
+    color: orange;
+}
+
+.optionsdiv{
+    display: flex;
+    background-color: rgb(42, 40, 40);
+    padding: 20px;
+}
+
+.optionsdiv p{
+    width: 100%;
+    color: white;
+    border-right: 1px solid rgb(102, 102, 102);
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    font-weight:bold;
+
+}
+
+
+    @media only screen and (min-width:320px)and(max-width:480px) {
+        .sectionOneback{
+            display: block;
+        }
+
+        .optionsdiv{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
