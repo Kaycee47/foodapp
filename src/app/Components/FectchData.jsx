@@ -36,24 +36,24 @@ const FectchData = () => {
   console.log(ourData)
   return (
     <div>
-        <div className='fecthdataclass'>
-        {ourData.map((myNewData)=>(
-            <>
-                <div>
-                <Image
-                    src={myNewData.image_thumbnail_path}
-                    width={200}
-                    height={100} 
-                    alt=''
-                    className='myimage'/>
+    <div className='fecthdataclass'>
+          {ourData.map((myNewData)=>(
+              <>
+                  <div>
+                  <Image
+                      src={myNewData.image_thumbnail_path}
+                      width={200}
+                      height={100} 
+                      alt=''
+                      className='myimage'/>
 
-                    <p>{myNewData.name}</p>
-                    <p>{myNewData.start_date}</p>
-                </div>
+                      <p>{myNewData.name}</p>
+                      <p>{myNewData.start_date}</p>
+                  </div>
 
-            </>
-        ))}
-    </div> 
+              </>
+          ))}
+      </div> 
    
         {isLoading &&(
             <div className='loaderModal'>
